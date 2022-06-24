@@ -1,6 +1,4 @@
-package com.syntax.ReviewClass8;
-
-import javax.print.Doc;
+package com.syntax.reviewClass8;
 
 public class Hospital {
     public static void main(String[] args) {
@@ -27,6 +25,10 @@ public class Hospital {
 
         doc.work();
         doctor.work();
+
+        doctor.treat("Samantha");
+        //accessing static method
+        Doctor.study("GTU");
 
     }
 }

@@ -1,0 +1,20 @@
+this keyword - use to refer to the current class
+
+this. - used with instance variable
+      - used with methods
+this() - used to call current class constructor
+
+  OPTIONAL          OPTIONAL            MUST   MUST
+access modifier non access modifiers returnType name(){
+    logic;
+}
+          VARIABLES
+  OPTIONAL           OPTIONAL         MUST   MUST
+access modifier non access modifiers dataType name;
+
+static members can only work with static members of the class
+instance members can work both instance and non static members
+
+Access modifiers define visibility
+
+private -> default -> protected -> public

@@ -1,3 +1,5 @@
 this keyword - use to refer to the current onject
 
 this. - used with instance variable
+      - used with methods
+this() - used to call current class constructor

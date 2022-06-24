@@ -1,4 +1,4 @@
-package com.syntax.ReviewClass7;
+package com.syntax.reviewClass7;
 
 public class Demo1 {
 
