@@ -1,0 +1,3 @@
+this keyword - use to refer to the current onject
+
+this. - used with instance variable
