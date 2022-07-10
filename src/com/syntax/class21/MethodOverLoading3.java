@@ -21,5 +21,6 @@ public class MethodOverLoading3 {
     public static void main(String[] args) {
         MethodOverLoading3 m=new MethodOverLoading3();
         m.method("Hamid", 50);
+        m.method(2,3);
     }
 }

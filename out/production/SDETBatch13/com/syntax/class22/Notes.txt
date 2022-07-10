@@ -33,7 +33,7 @@ Rules:
 What is MethodOverriding:
     Happens when same method exists inside the parent class and the child class.
 Why we should override a method:
-    If we are inheriting from a Parent class and we don't like the implementation
+    If we are inheriting from a Parent class, and we don't like the implementation
     of a method from the parent class, we can provide our own implementation.
     Sometimes it's done to improve the performance of code.
 How we can override a  method:

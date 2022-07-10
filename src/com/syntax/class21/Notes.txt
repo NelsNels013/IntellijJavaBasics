@@ -30,7 +30,7 @@ Important
  ---------------------------------------------------------------------------------
 what is MethodOverLoading:
     When same name method exists in a class but with different number of parameters or
-    different type of parameters or differetn sequence of parameters it is claaed
+    different type of parameters or different sequence of parameters it is closed
     methodOverLoading.
 Why we should use MethodOverLoading:
     1) Makes your code more readable.

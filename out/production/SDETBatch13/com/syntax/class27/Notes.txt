@@ -1,0 +1,35 @@
+Collections Framework:
+     Collections Framework is just a collection of interfaces and classes that have many
+     methods to store and manipulate real life day to day data.
+Why we should learn Collections Framework:
+     Collections Framework contains the classes that have pre-built methods to store and
+     manipulate the data. These methods are battle tested
+     (very well tested, something we can use in production environment).
+How can we use Collections Framework:
+     They are same classes just like any other class in Java. We create the object of the
+     class and start calling the methods, we just need to take care of the diamond operator.
+     We put the name of the class inside the diamond operator <> who's objects we will be
+     storing inside these classes, for example for Strings and ArrayList, the Syntax is
+     ArrayList <String> objName-new ArrayList<>();
+What are wrapper classes:
+     They are special classes built to work with collections framework which are replica of
+     primitive data types, but they are classes, means we can use them just like any other class,
+     we can have methods.
+Boxing and unboxing in wrapper classes.
+     When we convert a primitive data type like int, to a non-primitive wrapper class like
+     Integer we call it boxing. This conversion can happen automatically, and we can also call
+     explicit methods to convert primitives to non-primitives.
+     In the case of auto, it's called auto boxing and in auto boxing, we just assign the data, and it is
+     converted automatically while in simple we need to call a method to convert it. Unboxing and auto-Unboxing
+     is simply the reverse of it.
+Cons:
+     1) We need to use the wrapper classes with collections framework.
+     2) int num vs integer num Wrapper classes occupy 4 times more memory as compared to
+     primitive, but as testers we don't need to worry too much about these wrapper classes.
+------------------------------------------------------------------------------------------------------------------------
+List is the first interface that we will be discussing from the collections framework:
+List:
+     1) We can store duplicate data.
+     2) Insertion order is maintained.
+ArrayList:
+LinkedListClass:
