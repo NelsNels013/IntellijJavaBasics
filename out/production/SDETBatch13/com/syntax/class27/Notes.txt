@@ -32,4 +32,13 @@ List:
      1) We can store duplicate data.
      2) Insertion order is maintained.
 ArrayList:
-LinkedListClass:
+LinkedList Class:
+Joining in a mint
+Difference between ArrayList and LinkedList:
+ArrayList:
+     Pros: Retrieval(get operation) of elements is super fast.
+     Cons: Adding elements in the middle or start will be very expensive.
+LinkedList:
+     Pros: Whenever we have to insert the data randomly, not at the last index we should be
+     linkedList.
+     Retrieval is super, super slow if the list is big

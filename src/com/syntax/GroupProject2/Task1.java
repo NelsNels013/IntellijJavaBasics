@@ -1,0 +1,80 @@
+package com.syntax.GroupProject2;
+
+public class Task1 {
+    /*
+    Create a WebDriver Interface that will have the following unimplemented behaviour:
+    openBrowser(), closeBrowser(), maximizeWindow(), findElement().
+    Create 2 classes that implements WebDriver interface: ChromeDriver and FirefoxDriver.
+     */
+}
+
+interface WebDriver {
+
+    void openBrowser();
+
+    void closeBrowser();
+
+    void maximizeWindow();
+
+    void findElement();
+
+}
+
+class ChromeDriver implements WebDriver {
+
+    @Override
+    public void openBrowser() {
+        System.out.println("ChromeDriver opens Chrome browser");
+
+    }
+
+    @Override
+    public void closeBrowser() {
+        System.out.println("ChromeDriver closes Chrome browser");
+
+    }
+
+    @Override
+    public void maximizeWindow() {
+        System.out.println("ChromeDriver maximizes Chrome browser's window");
+    }
+
+    @Override
+    public void findElement() {
+        System.out.println("ChromeDriver finds Chrome browser's element");
+    }
+}
+
+class FirefoxDriver implements WebDriver {
+
+    @Override
+    public void openBrowser() {
+        System.out.println("FirefoxDriver opens Firefox browser");
+    }
+
+    @Override
+    public void closeBrowser() {
+        System.out.println("FirefoxDriver closes Firefox browser");
+    }
+
+    @Override
+    public void maximizeWindow() {
+        System.out.println("FirefoxDriver maximizes Firefox browser's window");
+    }
+
+    @Override
+    public void findElement() {
+        System.out.println("FirefoxDriver finds Firefox browser's element");
+    }
+}
+class DriverTester{
+    public static void main(String[] args) {
+        WebDriver[] drivers={new ChromeDriver(),new FirefoxDriver()};
+        for (WebDriver driver:drivers ){
+            driver.openBrowser();
+            driver.closeBrowser();
+            driver.maximizeWindow();
+            driver.findElement();
+        }
+    }
+}

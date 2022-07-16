@@ -19,11 +19,14 @@ public class ListDemo {
         System.out.println(legends.contains("Mante"));// will return true
         Object[] arr= legends.toArray();
         System.out.println(arr[0]);
+        System.out.println(legends);
         legends.remove("Ant");
         System.out.println(legends);
 
-        List<String> names=new ArrayList<>();
-        
+        List<String> someStudents=new ArrayList<>();
+        someStudents.add("Gucc");
+        someStudents.add("Mante");
+        System.out.println(legends.containsAll(someStudents));
 
     }
 }

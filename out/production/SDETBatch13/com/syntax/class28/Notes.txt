@@ -1,0 +1,11 @@
+What is List:
+    List is an interface inside the collections' framework, which have below properties.
+    1) Insertion order is maintained.
+    2) I can store duplicate data.
+List is implemented by many classes, but we will be focusing on ArrayList and linkedList:
+ArrayList:
+    When my requirement is that I will be reading the data a lot, then I should be going
+    with ArrayList.
+LinkedList:
+    Most of our operations will be writing the data to a list in between or in the start
+    or shifting the data, we should be going with LinkedList.
