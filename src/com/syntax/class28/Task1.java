@@ -14,5 +14,13 @@ public class Task1 {
         //it always improves the performance
         ArrayList<String> names = new ArrayList<>(5);
         names.add("mante");
+        names.add("Gookie");
+        names.add("Jorge");
+        names.add("Gucc");
+        names.add("Nelson");
+        System.out.println(names.isEmpty());
+        System.out.println(names.contains("Mante"));
+        System.out.println(names.size());
+        System.out.println(names);
     }
 }

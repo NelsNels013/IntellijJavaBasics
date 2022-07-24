@@ -1,0 +1,43 @@
+Set:
+    Set in Java does not allow duplicate values. There are many types of sets, but we
+    will only discuss the most widely used ones which are 1)HashSet 2) LinkedHashSet
+    3) TreeSet
+HashSet:
+    Pros: Most commonly used type of set, it is fastest when it comes to insert and
+    retrieve the data.
+    Cons: Insertion order is not maintained.
+    No get method to get a single value.
+linkedHashSet:
+    Pros: Insertion order is maintain.
+    Cons: Insertion speed is comparable to HashSet, but the retrieval speed is the slowest.
+TreeSet:
+    Pros: The data is stored in the sorted form.
+    Cons: Insertion speed is slow. Retrieval speed is better than LinkedHashSet
+    but slower than HashSet.
+Note:
+Mostly used to remove duplicates.
+--------------------------------------------------------------------------------------------------------------------
+Map:
+    Allow to store key value pairs. First entry is treated as key and the second one is
+    treated as value. Keys can't be duplicate, but values can be.
+    Map<Integer,String> items = new HashMap<>();
+    There are many types of Maps as sets, but we will only discuss 3 of them.
+    1) HashMap 2) LinkedHashMap 3) TreeMap
+HashMap:
+    Pros: It is fastest when it comes to insert and retrieve the data.
+    Cons: Insertion order is not maintained.
+LinkedHashMap:
+    Pros: Insertion order is maintained.
+    Cons: Insertion speed slower than HashMap, Retrieval speed is slowest of all.
+TreeMap:
+    Pros: Data is stored in the sorted form always.
+    Cons: Insertion speed is very slow.
+Choose proper DataStructure.
+    Q: I want to store unique names in the sorted form.
+    A: TreeSet
+    Q2: I want to store the names of the students amd most of the take I will be
+    performing operations related to data retrieval based on index.
+    A: ArrayList
+    Q3: I want to store the item names and the prizes and I want to maintain the
+    insertion order.
+    A: LinkedHashMap
