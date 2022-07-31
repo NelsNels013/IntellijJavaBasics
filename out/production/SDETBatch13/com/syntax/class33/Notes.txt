@@ -1,0 +1,10 @@
+Exception in Java:
+    Exception is an unwanted behaviour from the application that disrupts the normal flow of application.
+
+Exception Handling:
+    Exception handling is converting the complex system error messages to user-friendly error messages, which are
+    understandable by common people. We provide backup code that can use, used if out primary logic fails.
+
+Why we should Handle exceptions:
+    1) To make the software user-friendly
+    2) It helps use make more robust(better) applications.
